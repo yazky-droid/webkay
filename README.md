@@ -4,4 +4,4 @@
 Hello, Fellas!
 </p>
 
-## Thank you for your visiting!
+<p align="center">Thank you for your visiting!</p>
