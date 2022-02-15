@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landing.index');
 });
+Route::get('/', [ProjectController::class,'landing'])->name('landing');
+Route::get('/projects/index', [ProjectController::class,'index'])->name('projects.index');
+Route::get('/projects/show', [ProjectController::class,'show'])->name('projects.show');
