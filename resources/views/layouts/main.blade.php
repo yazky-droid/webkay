@@ -24,7 +24,7 @@
             <img src="https://img.icons8.com/fluent/28/000000/github.png" alt="logo-github">
         </a>
         <a href="https://www.linkedin.com/in/yazkymaulanafas/">
-            <img src="https://img.icons8.com/metro/28/000000/linkedin.png" alt="">
+            <img src="https://img.icons8.com/fluent/28/000000/linkedin.png" alt="">
         </a>
     </nav>
 </div>
@@ -40,7 +40,7 @@
             <img src="https://img.icons8.com/fluent/28/000000/github.png" alt="logo-github">
         </a>
         <a href="https://www.linkedin.com/in/yazkymaulanafas/">
-            <img src="https://img.icons8.com/metro/28/000000/linkedin.png" alt="">
+            <img src="https://img.icons8.com/fluent/28/000000/linkedin.png" alt="">
         </a>
     </nav>
     <a href="/"><div class="logo">Webkay</div></a>

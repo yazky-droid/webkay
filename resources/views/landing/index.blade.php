@@ -6,7 +6,7 @@
         <div class="landing-banner__profile flex flex-column align-items-center">
             <img src="images/yazky.jpg" alt="profile" class="profile-image">
             <p>Holla, Fellas!</p>
-            <span>It's your boy Yazky here !</span>
+            <span>It's your boy <span class="landing-banner__banner__banner-text" style="color: var(--yellow-color);">Yazky</span> here !</span>
         </div>
 
         <div class="landing-banner__banner">
@@ -30,8 +30,8 @@
     <div class="skills__container flex flex-column align-items-stretch justify-content-space-around">
         <div class="skills__header">
             <div class="heading__container flex flex-column align-items-flex-start justify-content-flex-start">
-                <span class="heading__subtext subtext">Nice To Know U Asshole</span>
-                <h1 class="section__heading">Areas of ALL MY SINS</h1>
+                <span class="heading__subtext subtext">This is all I want to be expert</span>
+                <h1 class="section__heading" style="margin-bottom: 2rem;">Areas of My Interest</h1>
             </div>
         </div>
 
@@ -41,7 +41,7 @@
                     <img src="https://img.icons8.com/fluent/80/000000/laravel.png"/>
                     <span class="card__info flex flex-column align-items-center">
                         <h3>Laravel</h6>
-                        <span style="text-align:center;line-height:1;">I'm in love with Laravel</span>
+                        <span style="text-align:center;line-height:2; color:var(--dark-color);">I'm in love with Laravel</span>
                     </span>
                 </div>
 
@@ -49,14 +49,14 @@
                     <img src="https://img.icons8.com/officel/80/000000/react.png"/>
                     <span class="card__info flex flex-column align-items-center">
                         <h3>React</h6>
-                        <span style="text-align:center; line-height:1;">I want to know more about React</span>
+                        <span style="text-align:center; line-height:1; color:var(--dark-color);">I want to know more about React</span>
                     </span>
                 </div>
                 <div class="skills__card card flex flex-column align-items-center justify-content-space-around">
                     <img src="https://img.icons8.com/officel/80/000000/sql.png" alt="sql">
                     <span class="card__info flex flex-column align-items-center">
                         <h3>SQL</h6>
-                        <span style="text-align:center; line-height:1;">Database ?I usually use MySQL or PostgreSQL.</span>
+                        <span style="text-align:center; line-height:1; color:var(--dark-color);">Database ?I usually use MySQL or PostgreSQL.</span>
                     </span>
                 </div>
             </div>
@@ -83,12 +83,12 @@
                 <a href="{{ route('projects.show',['id'=>$project->id]) }}">
                   <div class="projects__card flex flex-column align-items-flex-start justify-content-flex-start">
                         <img src="{{ $project->image_url }}" alt="project" class="cool-box-shadow">
-                        <h3>{{ $project->title }}</h3>
+                        <h3 style="color: var(--light-color); text-shadow:var(--dark-color) -0.2rem 0.2rem 0.1rem;">{{ $project->title }}</h3>
                         <span>{{ $project->excerpt }}</span>
                 </div>
             </a>
                 @empty
-                <h1 class="section__heading">Jancok kok KOSONG SAT</h1>
+                <h1 class="section__heading">There is nothing To show. i'm sorry</h1>
                 @endforelse
             </div>
         </div>

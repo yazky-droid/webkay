@@ -1,63 +1,67 @@
-.header,.footer{
+.header,
+.footer {
     width: 100%;
     padding: 2vmax 10%;
     position: relative
 }
 
-
-.header nav>*, .footer nav>*{
-    margin:0 1vmin;
+.header nav>*,
+.footer nav>* {
+    margin: 0 1vmin;
 }
 
-.footer::before{
+.footer::before {
     width: 80%;
     content: '';
     border-top: solid 1px lightgray;
-    top:0;
+    top: 0;
     left: 10%;
     position: absolute;
 }
 
-.footer{
+.footer {
     padding: 5vmax 10%;
 }
-.landing-banner{
+
+.landing-banner {
     width: 100%;
     height: auto;
-    margin:5rem 0;
+    margin: 5rem 0;
 }
 
-.landing-banner__container{
+.landing-banner__container {
     height: inherit;
 }
 
-.skills, .projects{
+.skills,
+.projects {
     position: relative;
-    display:table;
+    display: table;
     height: inherit;
     padding-top: 10%;
     width: 100%;
-
 }
 
-.projects-cta__container{
+.projects-cta__container {
     margin: 1vmax 0;
 }
 
-.projects-cta__container a{
+.projects-cta__container a {
     transition: 0.3s all;
 }
-.projects-cta__container a:hover{
+
+.projects-cta__container a:hover {
     letter-spacing: 1px;
-    background: var(--light-blue-color)
-
+    background: var(--dark-color);
+    font-size: smaller;
 }
 
-.skills__cards, .projects_cards{
-   width: 80% !important;
+.skills__cards,
+.projects_cards {
+    width: 80% !important;
 }
 
-.footer{
+.footer {
     width: 100%;
     margin-top: 10%;
 }
