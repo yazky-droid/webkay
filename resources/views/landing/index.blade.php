@@ -6,12 +6,12 @@
         <div class="landing-banner__profile flex flex-column align-items-center">
             <img src="images/yazky.jpg" alt="profile" class="profile-image">
             <p>Holla, Fellas!</p>
-            <span>It's your boy <span class="landing-banner__banner__banner-text" style="color: var(--yellow-color);">Yazky</span> here !</span>
+            <span>Welcome, it's me <span class="landing-banner__banner__banner-text" style="color: var(--yellow-color);">Yazky</span> here !</span>
         </div>
 
         <div class="landing-banner__banner">
             <div class="landing-banner__banner__banner-text">
-                Serve the APIs for Frontend
+                Junior Backend Developer
             </div>
         </div>
 
@@ -30,7 +30,7 @@
     <div class="skills__container flex flex-column align-items-stretch justify-content-space-around">
         <div class="skills__header">
             <div class="heading__container flex flex-column align-items-flex-start justify-content-flex-start">
-                <span class="heading__subtext subtext">This is all I want to be expert</span>
+                <span class="heading__subtext subtext">I would like to learn more about the topics below</span>
                 <h1 class="section__heading" style="margin-bottom: 2rem;">Areas of My Interest</h1>
             </div>
         </div>
@@ -41,7 +41,7 @@
                     <img src="https://img.icons8.com/fluent/80/000000/laravel.png"/>
                     <span class="card__info flex flex-column align-items-center">
                         <h3>Laravel</h6>
-                        <span style="text-align:center;line-height:2; color:var(--dark-color);">I'm in love with Laravel</span>
+                        <span style="text-align:center;line-height:1; color:var(--dark-color);">Laravel is a web application framework with expressive, elegant syntax.</span>
                     </span>
                 </div>
 
@@ -49,14 +49,14 @@
                     <img src="https://img.icons8.com/officel/80/000000/react.png"/>
                     <span class="card__info flex flex-column align-items-center">
                         <h3>React</h6>
-                        <span style="text-align:center; line-height:1; color:var(--dark-color);">I want to know more about React</span>
+                        <span style="text-align:center; line-height:1.4; color:var(--dark-color);">React is a JavaScript library for building user interfaces</span>
                     </span>
                 </div>
                 <div class="skills__card card flex flex-column align-items-center justify-content-space-around">
                     <img src="https://img.icons8.com/officel/80/000000/sql.png" alt="sql">
                     <span class="card__info flex flex-column align-items-center">
                         <h3>SQL</h6>
-                        <span style="text-align:center; line-height:1; color:var(--dark-color);">Database ?I usually use MySQL or PostgreSQL.</span>
+                        <span style="text-align:center; line-height:1.4; color:var(--dark-color);">Structured Query Language is used to manage databases </span>
                     </span>
                 </div>
             </div>
@@ -72,8 +72,8 @@
     <div class="projects__container flex flex-column align-items-stretch justify-content-space-around">
         <div class="project__heading">
             <div class="heading__container flex flex-column align-items-flex-end justify-content-flex-start">
-                <span class="heading__subtext subtext">Please check it !</span>
-                <h1 class="section__heading">What I Ever Build</h1>
+                <span class="heading__subtext subtext">Please, check this out! </span>
+                <h1 class="section__heading">What I've Developed</h1>
             </div>
         </div>
 

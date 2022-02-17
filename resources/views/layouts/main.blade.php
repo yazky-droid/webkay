@@ -12,11 +12,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <title>Portfolio Webkay</title>
+    <title>Portfolio - Yazz</title>
 </head>
 <body>
 <div class="header flex flex-row justify-content-space-between">
-    <a href="/"><div class="logo">Webkay</div></a>
+    <a href="/"><div class="logo">Yazz</div></a>
     <nav class="flex flex-row justify-content-space-around align-items-center">
         <a href="/" class="{{ Request::is('/')?'current':'' }} text-link">Home</a>
         <a href="/projects/index" class="{{ Request::is('/projects/index')?'current-page':'' }} text-link">Projects</a>
@@ -25,6 +25,9 @@
         </a>
         <a href="https://www.linkedin.com/in/yazkymaulanafas/">
             <img src="https://img.icons8.com/fluent/28/000000/linkedin.png" alt="">
+        </a>
+        <a href="https://wa.me/6289646466280?text={{ $message="Hello, I would like your information, please."; }}">
+            <img src="https://img.icons8.com/fluent/28/000000/whatsapp.png" alt="">
         </a>
     </nav>
 </div>
@@ -42,8 +45,11 @@
         <a href="https://www.linkedin.com/in/yazkymaulanafas/">
             <img src="https://img.icons8.com/fluent/28/000000/linkedin.png" alt="">
         </a>
+        <a href="https://wa.me/6289646466280?text={{ $message="Hello, I would like your information, please."; }}">
+            <img src="https://img.icons8.com/fluent/28/000000/whatsapp.png" alt="">
+        </a>
     </nav>
-    <a href="/"><div class="logo">Webkay</div></a>
+    <a href="/"><div class="logo">Yazz</div></a>
 </div>
 
 </body>
